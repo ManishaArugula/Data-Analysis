@@ -1,5 +1,16 @@
 # Key Insights from Online Book Store Analysis in SSMS
+
 Dataset Source : https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis
+
+I. Initial EDA in Python which includes:
+1.	Connect to SQL Server and loading CSV files into the server using Python
+2.	Identify and handle missing values
+3.	Detect and review outliers
+4.  Perform initial exploratory data analysis by analyze distributions of numerical columns
+5.	Clean and transform data as needed
+6.	Export cleaned data back to SQL Server
+
+II. Generating Insights in Microsoft SQL
 1.	Total Revenue
 Over the span of two years, the online bookstore generated a total revenue of $75,628.66.<br>
 2.	Top and Bottom Performing Genres (by Revenue)<br>
