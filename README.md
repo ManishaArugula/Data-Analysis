@@ -1,9 +1,16 @@
-# Key Insights from Online Book Store Analysis in Python, SSMS and Tableau
+# Key Insights from Online Book Store Analysis
 
 Dataset Source : https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis<br>
 Tableau Dashboars : https://public.tableau.com/app/profile/manisha.arugula/viz/Online_Bookstore_Analysis/Online_Bookstore_Analysis<br>
+Description : This project presents a full-cycle analysis of an online bookstore using Python for data preparation, SQL for insight generation, and Tableau for interactive visualization. The goal was to extract actionable insights from customer, book, and order data to understand sales performance, customer behavior, and revenue trends. <br>
+## Tools & Technologies <br>
+1. Python (Pandas, NumPy, Matplotlib, Seaborn, pyodbc)<br>
+2. Microsoft SQL Server (SSMS)<br>
+3. Tableau (Public Dashboard)<br>
+4. Git & GitHub for version control<br>
 
-## I. Initial EDA in Python which includes:
+
+## I. Data Cleaning & Exploration in Python:
 1.	Connect to SQL Server and loading CSV files into the server using Python
 2.	Identify and handle missing values
 3.	Detect and review outliers
@@ -11,7 +18,7 @@ Tableau Dashboars : https://public.tableau.com/app/profile/manisha.arugula/viz/O
 5.	Clean and transform data as needed
 6.	Export cleaned data back to SQL Server
 
-## II. Generating Insights in Microsoft SQL
+## II. Business Insights via SQL Queries
 1.	Total Revenue
 Over the span of two years, the online bookstore generated a total revenue of $75,628.66.<br>
 2.	Top and Bottom Performing Genres (by Revenue)<br>
@@ -48,7 +55,7 @@ o	Followed by Jonathon Strickland with $1,080.00 in purchases<br>
 o	The highest revenue was recorded in January, totaling $8,466.04<br>
 o	Followed by May, with $8,288.07<br>
 
-## III. An Interactive Dashboard in Tableau
+## III. Interactive Tableau Dashboard
 1. KPI Summary on Revenue, Orders and Customers
 2. Geographic Sales Map
 3. Distribution of Number of Orders(Histogram)
