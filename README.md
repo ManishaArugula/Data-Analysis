@@ -1,9 +1,9 @@
-# Key Insights from Online Book Store Analysis in SSMS
+# Key Insights from Online Book Store Analysis in Python, SSMS and Tableau
 
 Dataset Source : https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis<br>
 Tableau Dashboars : https://public.tableau.com/app/profile/manisha.arugula/viz/Online_Bookstore_Analysis/Online_Bookstore_Analysis<br>
 
-I. Initial EDA in Python which includes:
+## I. Initial EDA in Python which includes:
 1.	Connect to SQL Server and loading CSV files into the server using Python
 2.	Identify and handle missing values
 3.	Detect and review outliers
@@ -11,7 +11,7 @@ I. Initial EDA in Python which includes:
 5.	Clean and transform data as needed
 6.	Export cleaned data back to SQL Server
 
-II. Generating Insights in Microsoft SQL
+## II. Generating Insights in Microsoft SQL
 1.	Total Revenue
 Over the span of two years, the online bookstore generated a total revenue of $75,628.66.<br>
 2.	Top and Bottom Performing Genres (by Revenue)<br>
@@ -48,3 +48,10 @@ o	Followed by Jonathon Strickland with $1,080.00 in purchases<br>
 o	The highest revenue was recorded in January, totaling $8,466.04<br>
 o	Followed by May, with $8,288.07<br>
 
+## III. An Interactive Dashboard in Tableau
+1. KPI Summary on Revenue, Orders and Customers
+2. Geographic Sales Map
+3. Distribution of Number of Orders(Histogram)
+4. Customer Segmentation Insights(Scatter Plot)
+5. Distribution of Revenue by Genre
+6. Revenue per Month
