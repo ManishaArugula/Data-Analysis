@@ -1,6 +1,7 @@
 # Key Insights from Online Book Store Analysis in SSMS
 
-Dataset Source : https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis
+Dataset Source : https://www.kaggle.com/datasets/komal1111/online-bookstore-analysis<br>
+Tableau Dashboars : https://public.tableau.com/app/profile/manisha.arugula/viz/Online_Bookstore_Analysis/Online_Bookstore_Analysis<br>
 
 I. Initial EDA in Python which includes:
 1.	Connect to SQL Server and loading CSV files into the server using Python
